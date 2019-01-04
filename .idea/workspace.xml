@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c946822-3d93-4b67-8615-e751a7482b5e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IG_word/cnew.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IG_word/cnews.train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IG_word/new_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/IG.py" beforeDir="false" afterPath="$PROJECT_DIR$/IG_word/IG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/IG_reduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/IG_word/IG_reduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/SFLA.py" beforeDir="false" afterPath="$PROJECT_DIR$/IG_word/SFLA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/TF_IDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/IG_word/TF_IDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_410.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_42.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_43.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_44.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_45.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_46.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_47.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_48.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/交通/交通_49.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_1010.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/体育/体育_109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_81.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_810.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_82.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_83.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_84.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_85.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_86.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_87.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_88.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/军事/军事_89.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_71.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_710.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_72.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_73.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_74.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_75.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_76.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_77.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_78.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/医药/医药_79.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_91.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_910.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_92.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_93.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_94.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_95.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_96.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_97.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_98.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/政治/政治_99.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_31.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_310.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_32.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_33.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_34.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_35.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_36.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_37.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_38.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/教育/教育_39.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_51.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_510.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_52.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_53.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_54.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_55.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_56.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_57.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_58.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/环境/环境_59.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_11.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_110.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_12.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_13.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_14.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_15.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_18.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/电脑/电脑_19.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_61.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_610.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_62.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_63.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_64.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_66.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_67.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_68.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/经济/经济_69.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_21.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_210.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_22.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_23.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_24.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_25.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_26.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_27.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_28.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/test100/艺术/艺术_29.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_41.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_410.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_42.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_43.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_44.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_45.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_46.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_47.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_48.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/交通_49.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_101.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_1010.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_102.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_103.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_104.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_105.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_106.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_107.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_108.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/体育_109.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_81.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_810.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_82.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_83.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_84.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_85.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_86.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_87.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_88.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/军事_89.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_71.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_710.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_72.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_73.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_74.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_75.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_76.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_77.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_78.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/医药_79.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_91.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_910.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_92.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_93.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_94.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_95.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_96.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_97.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_98.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/政治_99.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_31.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_310.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_32.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_33.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_34.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_35.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_36.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_37.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_38.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/教育_39.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_51.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_510.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_52.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_53.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_54.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_55.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_56.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_57.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_58.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/环境_59.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_11.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_110.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_12.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_13.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_14.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_15.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_18.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/电脑_19.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_61.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_610.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_62.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_63.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_64.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_65.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_66.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_67.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_68.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/经济_69.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_21.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_210.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_22.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_23.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_24.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_25.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_26.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_27.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_28.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/text100/艺术_29.TXT" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IG_word/word_process.py" beforeDir="false" afterPath="$PROJECT_DIR$/IG_word/word_process.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/IG_KNN$SFLA.coverage" NAME="SFLA Coverage Results" MODIFIED="1546569911551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+    <SUITE FILE_PATH="coverage/IG_KNN$IG__1_.coverage" NAME="IG (1) Coverage Results" MODIFIED="1546592303760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+    <SUITE FILE_PATH="coverage/IG_KNN$TF_IDF.coverage" NAME="TF_IDF Coverage Results" MODIFIED="1546595743646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+    <SUITE FILE_PATH="coverage/IG_KNN$word_process__1_.coverage" NAME="word_process (1) Coverage Results" MODIFIED="1546148898051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+    <SUITE FILE_PATH="coverage/IG_KNN$IG.coverage" NAME="IG Coverage Results" MODIFIED="1546140429705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG" />
+    <SUITE FILE_PATH="coverage/IG_KNN$IG_reduction.coverage" NAME="IG_reduction Coverage Results" MODIFIED="1546594464700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+    <SUITE FILE_PATH="coverage/IG_KNN$word_process.coverage" NAME="word_process Coverage Results" MODIFIED="1546593083689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+    <SUITE FILE_PATH="coverage/IG_KNN$KNN_classify.coverage" NAME="KNN_classify Coverage Results" MODIFIED="1546427418097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/IG_word" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/SFLA.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/KNN_classify.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1113">
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IG_word/TF_IDF.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+              <folding>
+                <element signature="e#23#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/cnews.train.txt">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="21">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/cnew.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="882" column="91" selection-start-line="882" selection-start-column="91" selection-end-line="882" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/IG.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/IG_reduction.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IG_word/word_process.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="211" column="1" selection-start-line="211" selection-start-column="1" selection-end-line="211" selection-end-column="56" />
+              <folding>
+                <element signature="e#23#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>-1</find>
+      <find>2.</find>
+      <find>]</find>
+      <find>np.array(get</find>
+      <find>lab</find>
+      <find>M</find>
+      <find>ins</find>
+      <find>inde</find>
+      <find>index</find>
+      <find>args</find>
+      <find>arg</find>
+      <find>[</find>
+      <find>不是奖学金</find>
+      <find>™</find>
+      <find>™</find>
+      <find>®</find>
+      <find>€</find>
+      <find>三年奖金对比</find>
+      <find>多数木乃伊状况</find>
+      <find>・</find>
+      <find>print</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/IG/word_process.py" />
+        <option value="$PROJECT_DIR$/IG/IG.py" />
+        <option value="$PROJECT_DIR$/IG_word/test.py" />
+        <option value="$PROJECT_DIR$/IG_word/CHI.py" />
+        <option value="$PROJECT_DIR$/IG_word/NaiveBayes.py" />
+        <option value="$PROJECT_DIR$/CHI_NB/word_process.py" />
+        <option value="$PROJECT_DIR$/IG_word/KNN_classify_sfla.py" />
+        <option value="$PROJECT_DIR$/IG_word/tf_idf_sfla.py" />
+        <option value="$PROJECT_DIR$/IG_word/KNN_classify.py" />
+        <option value="$PROJECT_DIR$/IG_word/SFLA.py" />
+        <option value="$PROJECT_DIR$/IG_word/process.py" />
+        <option value="$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1263421352/sys.py" />
+        <option value="$PROJECT_DIR$/IG_word/IG.py" />
+        <option value="$PROJECT_DIR$/IG_word/cnew.txt" />
+        <option value="$PROJECT_DIR$/IG_word/word_process.py" />
+        <option value="$PROJECT_DIR$/IG_word/IG_reduction.py" />
+        <option value="$PROJECT_DIR$/IG_word/TF_IDF.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="147" />
+    <option name="width" value="1584" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="IG_KNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IG_KNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="IG_KNN" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IG_KNN" type="462c0819:PsiDirectoryNode" />
+              <item name="IG_word" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN\CHI_NB" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN\IG_word" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN\IG_word" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN\CHI_NB" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN\IG_word\test_all" />
+      <recent name="C:\Users\Lenovo\PycharmProjects\IG_KNN\IG" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.TF_IDF">
+    <configuration name="IG (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IG_KNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IG_word" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IG_word/IG.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="IG_reduction" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IG_KNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IG_word" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IG_word/IG_reduction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SFLA" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IG_KNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IG_word" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IG_word/SFLA.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TF_IDF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IG_KNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IG_word" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IG_word/TF_IDF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="word_process" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="IG_KNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/IG_word" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/IG_word/word_process.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.TF_IDF" />
+        <item itemvalue="Python.IG_reduction" />
+        <item itemvalue="Python.word_process" />
+        <item itemvalue="Python.IG (1)" />
+        <item itemvalue="Python.SFLA" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c946822-3d93-4b67-8615-e751a7482b5e" name="Default Changelist" comment="" />
+      <created>1546137511197</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546137511197</updated>
+      <workItem from="1546137512444" duration="17705000" />
+      <workItem from="1546216484270" duration="23147000" />
+      <workItem from="1546316330524" duration="3035000" />
+      <workItem from="1546329166146" duration="3764000" />
+      <workItem from="1546342376138" duration="8307000" />
+      <workItem from="1546412209889" duration="17739000" />
+      <workItem from="1546495266397" duration="15442000" />
+      <workItem from="1546563199377" duration="26125000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="115264000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17962466" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.31449276" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.2521739" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3289855" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.3289855" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49865952" weight="0.3289855" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17962466" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865952" weight="0.31449276" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.21159421" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.3289855" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49932975" weight="0.3289855" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49865952" weight="0.3289855" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/IG/text/交通_41.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG/word_process.py" />
+    <entry file="file://$PROJECT_DIR$/IG/IG.py" />
+    <entry file="file://$PROJECT_DIR$/IG_word/text100/交通_41.TXT">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/test.py" />
+    <entry file="file://$PROJECT_DIR$/IG_word/交通_41.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/test100/交通/交通_42.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/环境_537.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/电脑_12.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/stop_words.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39461">
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/text1000/交通_41.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/电脑_111.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/test1000/交通/交通_41.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/政治_91.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/经济_61.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/教育_31.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/电脑_11.TXT" />
+    <entry file="file://$PROJECT_DIR$/IG_word/test_all/交通_41.TXT">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHI_NB/NaiveBayes.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHI_NB/stop_words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHI_NB/CHI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-483">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHI_NB/text100/交通_41.TXT" />
+    <entry file="file://$PROJECT_DIR$/CHI_NB/test_all/交通_41.TXT">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CHI_NB/word_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#23#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/tf_idf_sfla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+          <folding>
+            <element signature="e#23#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/KNN_classify_sfla.py" />
+    <entry file="file://$PROJECT_DIR$/cnews.train.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/-1263421352/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="558" column="6" selection-start-line="558" selection-start-column="6" selection-end-line="558" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/reduction_words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/时尚.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/娱乐.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/家居.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/时政.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/游戏.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/科技.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/财经.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1870">
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/体育.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/cnew.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="882" column="91" selection-start-line="882" selection-start-column="91" selection-end-line="882" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_train/房产.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/IG.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="58" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/SFLA.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/KNN_classify.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1113">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/IG_reduction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/word_process.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="211" column="1" selection-start-line="211" selection-start-column="1" selection-end-line="211" selection-end-column="56" />
+          <folding>
+            <element signature="e#23#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/cnews.train.txt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="21">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/cnew_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/new_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IG_word/TF_IDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding>
+            <element signature="e#23#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
